@@ -1,9 +1,9 @@
 
 public class DemoApp {
-
+	static WonderfulManager wm = new WonderfulManager();
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.println("Hello from Demo!");
+		wm.giveMeWonder();
 	}
 
 }
